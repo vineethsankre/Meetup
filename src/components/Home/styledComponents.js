@@ -12,7 +12,7 @@ export const HomeHeading = styled.h1`
   color: #334155;
   font-size: 52px;
   font-family: 'Roboto';
-  margin-bottom:0px;
+  margin-bottom: 0px;
 `
 export const HomePara = styled.p`
   color: #475569;
@@ -43,7 +43,7 @@ export const Name = styled.h1`
   color: #2563eb;
   font-size: 45px;
   font-family: 'Roboto';
-  margin-bottom:0px;
+  margin-bottom: 0px;
 `
 
 export const Topic = styled.p`

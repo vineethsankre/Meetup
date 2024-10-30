@@ -28,7 +28,7 @@ export const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 `
 
 export const Label = styled.label`

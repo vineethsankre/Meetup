@@ -44,12 +44,12 @@ const Home = props => {
     <RegisterContext.Consumer>
       {value => {
         const {isRegistered, name, topic} = value
-        const foundTopic = topicsList.find(eachTopic => eachTopic.id === topic);
-        const topicName = foundTopic ? foundTopic.displayText : '';
+        const foundTopic = topicsList.find(eachTopic => eachTopic.id === topic)
+        const topicName = foundTopic ? foundTopic.displayText : ''
         return (
           <div>
             <Header />
-            {isRegistered === true ? (
+            {isRegistered ? (
               <HomeContainer>
                 <Name>Hello {name}</Name>
                 <Topic>Welcome to {topicName}</Topic>
